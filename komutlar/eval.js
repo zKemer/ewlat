@@ -6,12 +6,8 @@ const { promisify } = require("util");
 const readdir = promisify(require("fs").readdir);
 const chalk = require('chalk');
 const{ Client, Util } = require('discord.js');
-const Apex = require('dark.db'); // creating database
-const db = new Apex({
-  file: 'database.json',
-  readable: 'true',
-  language: 'EN'
-}); // languages: TR and EN
+const db = require('quick.db'); // creating database
+
 
  
 exports.run = (client, message, args) => {

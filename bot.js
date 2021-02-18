@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const ayarlar = require("./ayarlar.json");
 const chalk = require("chalk");
-const db = require("wio.db");
 const moment = require("moment");
 var Jimp = require("jimp");
 const { Client, Util } = require("discord.js");

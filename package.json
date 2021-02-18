@@ -11,7 +11,6 @@
     "captcha-plus": "^2.5.2",
     "chalk": "^4.1.0",
     "common-tags": "^1.8.0",
-    "dark.db": "0.0.1",
     "discord.js": "^12.5.1",
     "express": "^4.17.1",
     "ffmpeg": "0.0.4",
@@ -30,8 +29,8 @@
     "sayi-oku": "^1.1.4",
     "simple-youtube-api": "^5.2.1",
     "snekfetch": "^4.0.4",
-    "wio.db": "^4.0.10",
-    "ytdl-core": "^4.4.5"
+    "ytdl-core": "^4.4.5",
+    "quick.db": "^7.1.2"
   },
   "engines": {
     "node": "12.x"

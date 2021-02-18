@@ -1,10 +1,5 @@
 const { stripIndents } = require('common-tags');
-const Apex = require('dark.db'); // creating database
-const db = new Apex({
-  file: 'database.json',
-  readable: 'true',
-  language: 'EN'
-}); // languages: TR and EN
+const db = require('quick.db'); // creating database
 
 let oyndurum = new Set();
 const kelime = [`pusula`, `yorum`, `arkadaş`, `bal`];

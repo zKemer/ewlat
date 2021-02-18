@@ -1,10 +1,6 @@
 const Discord = require("discord.js")
-const Apex = require('dark.db'); // creating database
-const Db = new Apex({
-  file: 'database.json',
-  readable: 'true',
-  language: 'EN'
-}); // languages: TR and EN
+const Db = require('quick.db'); // creating database
+
 module.exports.run = async(client,message,args)=> {
 
 
